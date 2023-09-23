@@ -12,6 +12,7 @@
   "author": "lokesh",
   "license": "ISC",
   "devDependencies": {
+    "cucumber": "^6.0.7",
     "cypress": "^13.2.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
