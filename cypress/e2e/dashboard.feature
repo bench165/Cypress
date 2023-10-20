@@ -7,6 +7,7 @@ Background:
     And Click on submit button
     
 
+
 # Scenario: Testing access to the Dashboard screen
 #     Given Click the IoT Connect menu bar
 #     Then Successfully entered the Dashboard screen
@@ -15,10 +16,10 @@ Background:
 #     Given Click the IoT Connect menu bar
 #     Then Successfully Dashboard screen display
 
-Scenario: Test the day button
-    Given Click the IoT Connect menu bar
-    And Click the day button
-    Then Successfully entered the day button
+# Scenario: Test the day button
+#     Given Click the IoT Connect menu bar
+#     And Click the day button
+#     Then Successfully entered the day button
 
 # Scenario: Test the month button
 #     Given Click the IoT Connect menu bar
@@ -30,6 +31,39 @@ Scenario: Test the day button
 #     And Click the year button
 #     Then Successfully entered the year button
 
+# Scenario: Test the date picker
+#     Given Click the IoT Connect menu bar
+#     And Click the date picker
+#     Then Successfully entered the date picker
+
+# Scenario: Test the drop-down
+#     Given Click the IoT Connect menu bar
+#     And Click the drop-down
+#     Then Successfully entered the drop-down
+
+# Scenario: Test the clear button in drop-down
+#     Given Click the IoT Connect menu bar
+#     And Click the drop-down
+#     And Click the clear button
+#     Then Successfully the clear button in drop-down
+
+# Scenario: Test the all button in drop-down
+#     Given Click the IoT Connect menu bar
+#     And Click the drop-down
+#     And Click the clear button
+#     And Click the all button
+#     Then Successfully the all button in drop-downnd
+
+# Scenario: Test drop-down
+#     Given Click the IoT Connect menu bar
+#     And Click the drop-down
+#     Then Successfully list monitor
+
+    Scenario: Select the minimum number of monitors
+    Given Click the IoT Connect menu bar
+    And Click the drop-down
+    And Click the clear button
+    Then Successfully the minimum number of monitors
 
 
 # 1. `cy.visit()`: ใช้เพื่อเข้าชมหน้าเว็บที่คุณต้องการทดสอบ.
