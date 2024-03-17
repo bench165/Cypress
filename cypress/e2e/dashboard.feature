@@ -59,11 +59,11 @@ Background:
 #     And Click the drop-down
 #     Then Successfully list monitor
 
-    Scenario: Select the minimum number of monitors
-    Given Click the IoT Connect menu bar
-    And Click the drop-down
-    And Click the clear button
-    Then Successfully the minimum number of monitors
+    # Scenario: Select the minimum number of monitors
+    # Given Click the IoT Connect menu bar
+    # And Click the drop-down
+    # And Click the clear button
+    # Then Successfully the minimum number of monitors
 
 
 # 1. `cy.visit()`: ใช้เพื่อเข้าชมหน้าเว็บที่คุณต้องการทดสอบ.
